@@ -1,0 +1,349 @@
+﻿<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="utf-8">
+    <title>컨설팅페이지</title>
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no"/>
+    <meta name="format-detection" content="telephone=no, email=no, address=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <link rel="stylesheet" href="../comn/css/default.css">
+    <link rel="stylesheet" href="../comn/css/aos-2.3.1.css">
+    <link rel="stylesheet" href="../comn/css/animate.css">
+    <link rel="stylesheet" href="../comn/css/swiper.min.css">
+    <link rel="stylesheet" href="../comn/css/module.css">
+    <link rel="stylesheet" href="../comn/css/style.css">
+
+    <script src="../comn/js/jquery-1.7.1.min.js"></script>
+    <script src="../comn/js/swiper.min.js"></script>
+    <script src="../comn/js/aos-2.3.1.js"></script>
+    <script src="../comn/js/common.js"></script>
+</head>
+<style>
+
+</style>
+<body>
+
+<!-- 헤더 -->
+<header id="header">
+    <div class="black"></div>
+
+    <div class="wrap">
+        <div class="top">
+            <div class="utils">
+
+                <a href="#" class="util">로그아웃</a>
+                <a href="#" class="util">00교육원페이지</a>
+                <a href="#" class="util">고객센터</a>
+            </div>
+        </div>
+
+        <div class="wrap--logo">
+            <a href="#" class="logo">
+                <img src="../comn/img/logo.png" alt="">
+            </a>
+        </div>
+
+        <div class="navs">
+            <a href="#" class="nav">대학뉴스</a>
+            <a href="#" class="nav">대학정보</a>
+            <a href="#" class="nav">MY PAGE</a>
+            <a href="#" class="nav">공지사항</a>
+        </div>
+
+        <button class="btn--menu"></button>
+    </div>
+
+</header>
+
+<!-- 컨텐츠 -->
+<div id="contents">
+    <div class="area--consulting">
+        <div class="wrap">
+            <div class="top"  data-aos="fade-up" data-aos-duration="1500">
+                <div class="selects">
+                    <div class="input--select type01">
+                        <select name="" id="">
+                            <option value="">홍길동</option>
+                        </select>
+                    </div>
+                    <div class="input--select type01">
+                        <select name="" id="">
+                            <option value="">수학능력시험</option>
+                        </select>
+                    </div>
+                    <div class="input--select type01">
+                        <select name="" id="">
+                            <option value="">[정시] 서울대학교 체육:교육과</option>
+                        </select>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="box--title"  data-aos="fade-up" data-aos-duration="1500">
+                <img src="../comn/img/markSmall01.png" alt="">
+
+                <h3 class="title">서울 대학교 <span class="hyphen">|</span> 체육 교육과</h3>
+            </div>
+
+            <div class="charts"  data-aos="fade-up" data-aos-duration="1500">
+                <div class="chart--wrap">
+                    <div class="chart">
+                        <canvas id="circleChart01"></canvas>
+
+                        <h3 class="title">수능</h3>
+                    </div>
+                    <p class="text">
+                        <span class="point">20</span>등
+                    </p>
+                </div>
+                <span class="icon plus">+</span>
+                <div class="chart--wrap">
+                    <div class="chart">
+                        <canvas id="circleChart02"></canvas>
+
+                        <h3 class="title">내신</h3>
+                    </div>
+
+                    <p class="text">
+                        <span class="point">20</span>등
+                    </p>
+                </div>
+                <span class="icon plus">+</span>
+                <div class="chart--wrap">
+                    <div class="chart">
+                        <canvas id="circleChart03"></canvas>
+                        <h3 class="title">실기</h3>
+                    </div>
+
+                    <p class="text">
+                        <span class="point">1</span>등
+                    </p>
+                </div>
+                <span class="icon equal">=</span>
+                <div class="chart--wrap">
+                    <div class="chart">
+                        <canvas id="circleChart04"></canvas>
+                        <h3 class="title">총점</h3>
+                    </div>
+
+                    <p class="text">
+                        <span class="point">3</span>등
+                    </p>
+                </div>
+            </div>
+
+            <div class="mixCharts"  data-aos="fade-up" data-aos-duration="1500">
+                <canvas id="mixChart"></canvas>
+            </div>
+
+            <div class="table--wrap"  data-aos="fade-up" data-aos-duration="1500">
+                <table class="table type02">
+                    <thead>
+                    <tr>
+                        <th>나의점수 (수능+내신)</th>
+                        <th>상위10%(수능+내신)점수</th>
+                        <th>실기</th>
+                        <th>상위10%실기</th>
+                        <th>본인총점</th>
+                        <th>총점컷</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td>430</td>
+                        <td>450</td>
+                        <td>296</td>
+                        <td>260</td>
+                        <td>726</td>
+                        <td><span class="point">710</span></td>
+                    </tr>
+                    </tbody>
+                </table>
+
+            </div>
+
+            <div class="btns"  data-aos="fade-up" data-aos-duration="1500">
+                <button class="btn type03">DELETE</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- 푸터 -->
+<footer id="footer">
+    <div class="wrap">
+        <div class="links">
+            <a href="#">회사소개</a>
+            <a href="#">이용약관</a>
+            <a href="#">개인정보처리방침</a>
+            <a href="#">청소년보호정책</a>
+            <a href="#">기사배열기본방침</a>
+            <a href="#">광고안내</a>
+            <a href="#">제휴문의</a>
+        </div>
+
+        <div class="infos">
+            <p class="info">(주)000 사업자등록번호 : 000-00-00000 | 통신판매업 신고번호 : 0000-00002호<p>
+            <p class="info">FAX 00-000-0000</p>
+            <p class="info">고객센터 0000-0000</p>
+        </div>
+
+        <p class="copyright">Copyright(c) 00000 Cop. All Rights Reserved. aaa@aaa.com</p>
+    </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+<script>
+
+    /* 개발자님 세팅이 필요한 데이터 시작 */
+    let scores = [70, 30, 20, 40]; // 수능, 내신, 실기 상위 % [수능, 내신, 실기]
+    let subjectScores = [80, 40, 60, 100, 20]; // 과목별 본인 점수 [국어, 수학, 영어, 탐구, 내신]
+	let subjectAverages = [80, 60, 90, 40, 60]; // 과목별 지원자평균 점수 [국어, 수학, 영어, 탐구, 내신]
+    /* 개발자님 세팅이 필요한 데이터 끝(아래 코드는 터치할 부분 없음) */
+
+
+    // 수능 점수 원형차트 설정
+	let ctx01 = document.getElementById('circleChart01').getContext('2d');
+
+	let doughnutChart01 = new Chart(ctx01, {
+		type: 'doughnut',
+		data: {
+			datasets: [{
+				data: [scores[0], 100 - scores[0]],
+				backgroundColor: ["#878787", "#dadbdb"],
+            }],
+			labels: [scores[0], 100-scores[0]]
+        },
+        options: {
+			legend: {
+				display: false
+			},
+			animation: {
+				duration: 1000,
+				onComplete: function(animation) {
+					$(".chart--wrap").eq(0).find(".point").addClass("active");
+				}
+			}
+        },
+
+	});
+
+	// 내신 점수 원형차트 설정
+	let ctx02 = document.getElementById('circleChart02').getContext('2d');
+
+	let doughnutChart02 = new Chart(ctx02, {
+		type: 'doughnut',
+		data: {
+			datasets: [{
+				data: [scores[1], 100 - scores[1]],
+				backgroundColor: ["#878787", "#dadbdb"],
+			}],
+			labels: [scores[1], 100-scores[1]]
+		},
+		options: {
+			legend: {
+				display: false
+			},
+			animation: {
+				duration: 1500,
+				onComplete: function(animation) {
+					$(".chart--wrap").eq(1).find(".point").addClass("active");
+				}
+			}
+		}
+	});
+
+	// 실기 점수 원형차트 설정
+	let ctx03 = document.getElementById('circleChart03').getContext('2d');
+
+	let doughnutChart03 = new Chart(ctx03, {
+		type: 'doughnut',
+		data: {
+			datasets: [{
+				data: [scores[2], 100 - scores[2]],
+				backgroundColor: ["#878787", "#dadbdb"],
+			}],
+            labels: [scores[2], 100-scores[2]]
+		},
+		options: {
+			legend: {
+				display: false
+			},
+			animation: {
+				duration: 2000,
+				onComplete: function(animation) {
+					$(".chart--wrap").eq(2).find(".point").addClass("active");
+				}
+			}
+		}
+	});
+
+	// 총점 점수 원형차트 설정
+	let ctx04 = document.getElementById('circleChart04').getContext('2d');
+
+	let doughnutChart04 = new Chart(ctx04, {
+		type: 'doughnut',
+		data: {
+			datasets: [{
+				data: [scores[3], 100 - scores[3]],
+				backgroundColor: ["#42a470", "#dadbdb"],
+			}],
+			labels: [scores[3], 100-scores[3]]
+		},
+		options: {
+			legend: {
+				display: false
+			},
+			animation: {
+				duration: 2500,
+				onComplete: function(animation) {
+					$(".chart--wrap").eq(3).find(".point").addClass("active");
+				}
+			}
+		}
+	});
+
+	// 과목별 점수 차트 설정
+	let ctx05 = document.getElementById('mixChart').getContext('2d');
+	var mixedChart = new Chart(ctx05, {
+		type: 'bar',
+		data: {
+			datasets: [{
+				label: '본인',
+				data: subjectScores,
+				backgroundColor: "rgba(66,164,112,0.15)",
+			}, {
+				label: '지원자 평균',
+				data: subjectAverages,
+
+				// Changes this dataset to become a line
+				type: 'line',
+                backgroundColor: "rgba(0,0,0,0)",
+				lineTension: 0,
+				pointBackgroundColor: "#42a470",
+				borderColor: "#42a470",
+                borderWidth: 2,
+				pointBorderWidth: "5"
+			}],
+			labels: ['국어', '수학', '영어', '탐구', '내신'],
+		},
+		options: {
+			scales: {
+				yAxes: [{
+					ticks: {
+						beginAtZero: true
+					},
+				}],
+				xAxes: [{
+					barPercentage: 0.25,
+				}]
+			}
+		}
+		/*options: options*/
+	});
+</script>
+</body>
+</html>

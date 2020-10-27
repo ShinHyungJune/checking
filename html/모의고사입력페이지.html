@@ -1,0 +1,2099 @@
+﻿<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="utf-8">
+    <title>모의고사입력</title>
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no"/>
+    <meta name="format-detection" content="telephone=no, email=no, address=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <link rel="stylesheet" href="../comn/css/default.css">
+    <link rel="stylesheet" href="../comn/css/aos-2.3.1.css">
+    <link rel="stylesheet" href="../comn/css/animate.css">
+    <link rel="stylesheet" href="../comn/css/swiper.min.css">
+    <link rel="stylesheet" href="../comn/css/module.css">
+    <link rel="stylesheet" href="../comn/css/style.css">
+
+    <script src="../comn/js/jquery-1.7.1.min.js"></script>
+    <script src="../comn/js/swiper.min.js"></script>
+    <script src="../comn/js/aos-2.3.1.js"></script>
+    <script src="../comn/js/common.js"></script>
+</head>
+<style>
+
+</style>
+<body>
+
+<!-- 헤더 -->
+<header id="header">
+    <div class="black"></div>
+
+    <div class="wrap">
+        <div class="top">
+            <div class="utils">
+
+                <a href="#" class="util">로그아웃</a>
+                <a href="#" class="util">00교육원페이지</a>
+                <a href="#" class="util">고객센터</a>
+            </div>
+        </div>
+
+        <div class="wrap--logo">
+            <a href="#" class="logo">
+                <img src="../comn/img/logo.png" alt="">
+            </a>
+        </div>
+
+        <div class="navs">
+            <a href="#" class="nav">대학뉴스</a>
+            <a href="#" class="nav">대학정보</a>
+            <a href="#" class="nav">MY PAGE</a>
+            <a href="#" class="nav">공지사항</a>
+        </div>
+
+        <button class="btn--menu"></button>
+    </div>
+
+</header>
+
+<!-- 컨텐츠 -->
+<div id="contents">
+    <div class="area--inputTestExample">
+        <div class="wrap">
+
+            <h3 class="title--check"  data-aos="fade-up" data-aos-duration="1500"><img src="../comn/img/check--green.png" alt="" >성적입력</h3>
+
+            <div class="wrap--tabs"  data-aos="fade-up">
+                <div class="tabs type02"  data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200">
+                    <button class="tabs--tab active">3월</button>
+                    <button class="tabs--tab">4월</button>
+                    <button class="tabs--tab">6월</button>
+                    <button class="tabs--tab">7월</button>
+                    <button class="tabs--tab">9월</button>
+                    <button class="tabs--tab">대학능력시험</button>
+                </div>
+                <div class="tabs--contents"  data-aos="fade-up" data-aos-duration="1500" data-aos-delay="400">
+                    <div class="tabs--content active">
+                        <div class="table--wrap">
+                            <table class="table type01">
+                                <thead>
+                                <tr>
+                                    <th>응시 확인</th>
+                                    <th>
+                                        <div class="input--checkbox type01">
+                                            <input type="checkbox" id="test01">
+                                            <label for="test01"></label>
+                                        </div>
+                                    </th>
+                                    <th>
+                                        <div class="input--checkbox type01">
+                                            <input type="checkbox" id="test02">
+                                            <label for="test02"></label>
+                                        </div>
+                                    </th>
+                                    <th>
+                                        <div class="checkboxes">
+                                            <div class="input--checkbox type01">
+                                                <input type="checkbox" id="test03">
+                                                <label for="test03"></label>
+                                            </div>
+
+                                        </div>
+                                    </th>
+                                    <th>
+                                        <div class="input--checkbox type01">
+                                            <input type="checkbox" id="test05">
+                                            <label for="test05"></label>
+                                        </div>
+                                    </th>
+                                    <th style="border-right:none;">
+                                        <div class="input--checkbox type01">
+                                            <input type="checkbox" id="test06">
+                                            <label for="test06"></label>
+                                        </div>
+                                    </th>
+                                    <th style="border-right:none;">
+                                        <div class="input--checkbox type01">
+                                            <input type="checkbox" id="test07">
+                                            <label for="test07"></label>
+                                        </div>
+                                    </th>
+                                    <th>
+                                        <div class="input--checkbox type01">
+                                            <input type="checkbox" id="test08">
+                                            <label for="test08"></label>
+                                        </div>
+                                    </th>
+                                    <th>
+                                        <div class="input--checkbox type01">
+                                            <input type="checkbox" id="test09">
+                                            <label for="test09"></label>
+                                        </div>
+                                    </th>
+                                </tr>
+                                <tr>
+                                    <th rowspan="2">구분</th>
+                                    <th rowspan="2" class="bg">한국사</th>
+                                    <th rowspan="2" class="bg">국어</th>
+                                    <th class="bg">수학</th>
+                                    <th rowspan="2" class="bg">영어</th>
+                                    <th class="bg">사회탐구</th>
+                                    <th class="bg">과학탐구</th>
+                                    <th class="bg">직업탐구</th>
+                                    <th class="bg">제2외국어</th>
+                                </tr>
+                                <tr>
+                                    <th class="bg">
+                                        <div class="input--select type01">
+                                            <select name="" id="">
+                                                <option value="" disabled selected>선택</option>
+                                            </select>
+                                        </div>
+                                    </th>
+                                    <th class="bg" style="border-right:none;">
+                                        <div class="input--select type01">
+                                            <select name="" id="">
+                                                <option value="" disabled selected>선택</option>
+                                            </select>
+                                        </div>
+                                    </th>
+                                    <th class="bg" style="border-right:none;">
+                                        <div class="input--select type01">
+                                            <select name="" id="">
+                                                <option value="" disabled selected>선택</option>
+                                            </select>
+                                        </div>
+                                    </th>
+                                    <th class="bg">
+                                        <div class="input--select type01">
+                                            <select name="" id="">
+                                                <option value="" disabled selected>선택</option>
+                                            </select>
+                                        </div>
+                                    </th>
+                                    <th class="bg">
+                                        <div class="input--select type01">
+                                            <select name="" id="">
+                                                <option value="" disabled selected>선택</option>
+                                            </select>
+                                        </div>
+                                    </th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>원점수</td>
+                                        <td>
+                                            <div class="input--text type02">
+                                                <input type="text">
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="input--text type02">
+                                                <input type="text">
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="input--text type02">
+                                                <input type="text">
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="input--text type02">
+                                                <input type="text">
+                                            </div>
+                                        </td>
+                                        <td style="border-right:none;">
+                                            <div class="input--text type02">
+                                                <input type="text">
+                                            </div>
+                                        </td>
+                                        <td style="border-right:none;">
+                                            <div class="input--text type02">
+                                                <input type="text">
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="input--text type02">
+                                                <input type="text">
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="input--text type02">
+                                                <input type="text">
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>표준점수</td>
+                                        <td>
+                                            <div class="input--text type02">
+                                                <input type="text">
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="input--text type02">
+                                                <input type="text">
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="input--text type02">
+                                                <input type="text">
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="input--text type02">
+                                                <input type="text">
+                                            </div>
+                                        </td>
+                                        <td style="border-right:none;">
+                                            <div class="input--text type02">
+                                                <input type="text">
+                                            </div>
+                                        </td>
+                                        <td style="border-right:none;">
+                                            <div class="input--text type02">
+                                                <input type="text">
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="input--text type02">
+                                                <input type="text">
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="input--text type02">
+                                                <input type="text">
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>백분위</td>
+                                        <td>
+                                            <div class="input--text type02">
+                                                <input type="text">
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="input--text type02">
+                                                <input type="text">
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="input--text type02">
+                                                <input type="text">
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="input--text type02">
+                                                <input type="text">
+                                            </div>
+                                        </td>
+                                        <td style="border-right:none;">
+                                            <div class="input--text type02">
+                                                <input type="text">
+                                            </div>
+                                        </td>
+                                        <td style="border-right:none;">
+                                            <div class="input--text type02">
+                                                <input type="text">
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="input--text type02">
+                                                <input type="text">
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="input--text type02">
+                                                <input type="text">
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>등급</td>
+                                        <td>
+                                            <div class="input--text type02">
+                                                <input type="text">
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="input--text type02">
+                                                <input type="text">
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="input--text type02">
+                                                <input type="text">
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="input--text type02">
+                                                <input type="text">
+                                            </div>
+                                        </td>
+                                        <td style="border-right:none;">
+                                            <div class="input--text type02">
+                                                <input type="text">
+                                            </div>
+                                        </td>
+                                        <td style="border-right:none;">
+                                            <div class="input--text type02">
+                                                <input type="text">
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="input--text type02">
+                                                <input type="text">
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="input--text type02">
+                                                <input type="text">
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="tabs--content">
+                        <div class="table--wrap">
+                            <table class="table type01">
+                                <thead>
+                                <tr>
+                                    <th>응시 확인</th>
+                                    <th>
+                                        <div class="input--checkbox type01">
+                                            <input type="checkbox" id="test01">
+                                            <label for="test01"></label>
+                                        </div>
+                                    </th>
+                                    <th>
+                                        <div class="input--checkbox type01">
+                                            <input type="checkbox" id="test02">
+                                            <label for="test02"></label>
+                                        </div>
+                                    </th>
+                                    <th>
+                                        <div class="checkboxes">
+                                            <div class="input--checkbox type01">
+                                                <input type="checkbox" id="test03">
+                                                <label for="test03"></label>
+                                            </div>
+
+                                        </div>
+                                    </th>
+                                    <th>
+                                        <div class="input--checkbox type01">
+                                            <input type="checkbox" id="test05">
+                                            <label for="test05"></label>
+                                        </div>
+                                    </th>
+                                    <th style="border-right:none;">
+                                        <div class="input--checkbox type01">
+                                            <input type="checkbox" id="test06">
+                                            <label for="test06"></label>
+                                        </div>
+                                    </th>
+                                    <th style="border-right:none;">
+                                        <div class="input--checkbox type01">
+                                            <input type="checkbox" id="test07">
+                                            <label for="test07"></label>
+                                        </div>
+                                    </th>
+                                    <th>
+                                        <div class="input--checkbox type01">
+                                            <input type="checkbox" id="test08">
+                                            <label for="test08"></label>
+                                        </div>
+                                    </th>
+                                    <th>
+                                        <div class="input--checkbox type01">
+                                            <input type="checkbox" id="test09">
+                                            <label for="test09"></label>
+                                        </div>
+                                    </th>
+                                </tr>
+                                <tr>
+                                    <th rowspan="2">구분</th>
+                                    <th rowspan="2" class="bg">한국사</th>
+                                    <th rowspan="2" class="bg">국어</th>
+                                    <th class="bg">수학</th>
+                                    <th rowspan="2" class="bg">영어</th>
+                                    <th class="bg">사회탐구</th>
+                                    <th class="bg">과학탐구</th>
+                                    <th class="bg">직업탐구</th>
+                                    <th class="bg">제2외국어</th>
+                                </tr>
+                                <tr>
+                                    <th class="bg">
+                                        <div class="input--select type01">
+                                            <select name="" id="">
+                                                <option value="" disabled selected>선택</option>
+                                            </select>
+                                        </div>
+                                    </th>
+                                    <th class="bg" style="border-right:none;">
+                                        <div class="input--select type01">
+                                            <select name="" id="">
+                                                <option value="" disabled selected>선택</option>
+                                            </select>
+                                        </div>
+                                    </th>
+                                    <th class="bg" style="border-right:none;">
+                                        <div class="input--select type01">
+                                            <select name="" id="">
+                                                <option value="" disabled selected>선택</option>
+                                            </select>
+                                        </div>
+                                    </th>
+                                    <th class="bg">
+                                        <div class="input--select type01">
+                                            <select name="" id="">
+                                                <option value="" disabled selected>선택</option>
+                                            </select>
+                                        </div>
+                                    </th>
+                                    <th class="bg">
+                                        <div class="input--select type01">
+                                            <select name="" id="">
+                                                <option value="" disabled selected>선택</option>
+                                            </select>
+                                        </div>
+                                    </th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <tr>
+                                    <td>원점수</td>
+                                    <td>
+                                        <div class="input--text type02">
+                                            <input type="text">
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="input--text type02">
+                                            <input type="text">
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="input--text type02">
+                                            <input type="text">
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="input--text type02">
+                                            <input type="text">
+                                        </div>
+                                    </td>
+                                    <td style="border-right:none;">
+                                        <div class="input--text type02">
+                                            <input type="text">
+                                        </div>
+                                    </td>
+                                    <td style="border-right:none;">
+                                        <div class="input--text type02">
+                                            <input type="text">
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="input--text type02">
+                                            <input type="text">
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="input--text type02">
+                                            <input type="text">
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>표준점수</td>
+                                    <td>
+                                        <div class="input--text type02">
+                                            <input type="text">
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="input--text type02">
+                                            <input type="text">
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="input--text type02">
+                                            <input type="text">
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="input--text type02">
+                                            <input type="text">
+                                        </div>
+                                    </td>
+                                    <td style="border-right:none;">
+                                        <div class="input--text type02">
+                                            <input type="text">
+                                        </div>
+                                    </td>
+                                    <td style="border-right:none;">
+                                        <div class="input--text type02">
+                                            <input type="text">
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="input--text type02">
+                                            <input type="text">
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="input--text type02">
+                                            <input type="text">
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>백분위</td>
+                                    <td>
+                                        <div class="input--text type02">
+                                            <input type="text">
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="input--text type02">
+                                            <input type="text">
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="input--text type02">
+                                            <input type="text">
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="input--text type02">
+                                            <input type="text">
+                                        </div>
+                                    </td>
+                                    <td style="border-right:none;">
+                                        <div class="input--text type02">
+                                            <input type="text">
+                                        </div>
+                                    </td>
+                                    <td style="border-right:none;">
+                                        <div class="input--text type02">
+                                            <input type="text">
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="input--text type02">
+                                            <input type="text">
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="input--text type02">
+                                            <input type="text">
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>등급</td>
+                                    <td>
+                                        <div class="input--text type02">
+                                            <input type="text">
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="input--text type02">
+                                            <input type="text">
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="input--text type02">
+                                            <input type="text">
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="input--text type02">
+                                            <input type="text">
+                                        </div>
+                                    </td>
+                                    <td style="border-right:none;">
+                                        <div class="input--text type02">
+                                            <input type="text">
+                                        </div>
+                                    </td>
+                                    <td style="border-right:none;">
+                                        <div class="input--text type02">
+                                            <input type="text">
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="input--text type02">
+                                            <input type="text">
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="input--text type02">
+                                            <input type="text">
+                                        </div>
+                                    </td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="tabs--content">
+                        <div class="table--wrap">
+                            <table class="table type01">
+                                <thead>
+                                <tr>
+                                    <th>응시 확인</th>
+                                    <th>
+                                        <div class="input--checkbox type01">
+                                            <input type="checkbox" id="test01">
+                                            <label for="test01"></label>
+                                        </div>
+                                    </th>
+                                    <th>
+                                        <div class="input--checkbox type01">
+                                            <input type="checkbox" id="test02">
+                                            <label for="test02"></label>
+                                        </div>
+                                    </th>
+                                    <th>
+                                        <div class="checkboxes">
+                                            <div class="input--checkbox type01">
+                                                <input type="checkbox" id="test03">
+                                                <label for="test03"></label>
+                                            </div>
+
+                                        </div>
+                                    </th>
+                                    <th>
+                                        <div class="input--checkbox type01">
+                                            <input type="checkbox" id="test05">
+                                            <label for="test05"></label>
+                                        </div>
+                                    </th>
+                                    <th style="border-right:none;">
+                                        <div class="input--checkbox type01">
+                                            <input type="checkbox" id="test06">
+                                            <label for="test06"></label>
+                                        </div>
+                                    </th>
+                                    <th style="border-right:none;">
+                                        <div class="input--checkbox type01">
+                                            <input type="checkbox" id="test07">
+                                            <label for="test07"></label>
+                                        </div>
+                                    </th>
+                                    <th>
+                                        <div class="input--checkbox type01">
+                                            <input type="checkbox" id="test08">
+                                            <label for="test08"></label>
+                                        </div>
+                                    </th>
+                                    <th>
+                                        <div class="input--checkbox type01">
+                                            <input type="checkbox" id="test09">
+                                            <label for="test09"></label>
+                                        </div>
+                                    </th>
+                                </tr>
+                                <tr>
+                                    <th rowspan="2">구분</th>
+                                    <th rowspan="2" class="bg">한국사</th>
+                                    <th rowspan="2" class="bg">국어</th>
+                                    <th class="bg">수학</th>
+                                    <th rowspan="2" class="bg">영어</th>
+                                    <th class="bg">사회탐구</th>
+                                    <th class="bg">과학탐구</th>
+                                    <th class="bg">직업탐구</th>
+                                    <th class="bg">제2외국어</th>
+                                </tr>
+                                <tr>
+                                    <th class="bg">
+                                        <div class="input--select type01">
+                                            <select name="" id="">
+                                                <option value="" disabled selected>선택</option>
+                                            </select>
+                                        </div>
+                                    </th>
+                                    <th class="bg" style="border-right:none;">
+                                        <div class="input--select type01">
+                                            <select name="" id="">
+                                                <option value="" disabled selected>선택</option>
+                                            </select>
+                                        </div>
+                                    </th>
+                                    <th class="bg" style="border-right:none;">
+                                        <div class="input--select type01">
+                                            <select name="" id="">
+                                                <option value="" disabled selected>선택</option>
+                                            </select>
+                                        </div>
+                                    </th>
+                                    <th class="bg">
+                                        <div class="input--select type01">
+                                            <select name="" id="">
+                                                <option value="" disabled selected>선택</option>
+                                            </select>
+                                        </div>
+                                    </th>
+                                    <th class="bg">
+                                        <div class="input--select type01">
+                                            <select name="" id="">
+                                                <option value="" disabled selected>선택</option>
+                                            </select>
+                                        </div>
+                                    </th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <tr>
+                                    <td>원점수</td>
+                                    <td>
+                                        <div class="input--text type02">
+                                            <input type="text">
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="input--text type02">
+                                            <input type="text">
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="input--text type02">
+                                            <input type="text">
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="input--text type02">
+                                            <input type="text">
+                                        </div>
+                                    </td>
+                                    <td style="border-right:none;">
+                                        <div class="input--text type02">
+                                            <input type="text">
+                                        </div>
+                                    </td>
+                                    <td style="border-right:none;">
+                                        <div class="input--text type02">
+                                            <input type="text">
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="input--text type02">
+                                            <input type="text">
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="input--text type02">
+                                            <input type="text">
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>표준점수</td>
+                                    <td>
+                                        <div class="input--text type02">
+                                            <input type="text">
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="input--text type02">
+                                            <input type="text">
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="input--text type02">
+                                            <input type="text">
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="input--text type02">
+                                            <input type="text">
+                                        </div>
+                                    </td>
+                                    <td style="border-right:none;">
+                                        <div class="input--text type02">
+                                            <input type="text">
+                                        </div>
+                                    </td>
+                                    <td style="border-right:none;">
+                                        <div class="input--text type02">
+                                            <input type="text">
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="input--text type02">
+                                            <input type="text">
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="input--text type02">
+                                            <input type="text">
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>백분위</td>
+                                    <td>
+                                        <div class="input--text type02">
+                                            <input type="text">
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="input--text type02">
+                                            <input type="text">
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="input--text type02">
+                                            <input type="text">
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="input--text type02">
+                                            <input type="text">
+                                        </div>
+                                    </td>
+                                    <td style="border-right:none;">
+                                        <div class="input--text type02">
+                                            <input type="text">
+                                        </div>
+                                    </td>
+                                    <td style="border-right:none;">
+                                        <div class="input--text type02">
+                                            <input type="text">
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="input--text type02">
+                                            <input type="text">
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="input--text type02">
+                                            <input type="text">
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>등급</td>
+                                    <td>
+                                        <div class="input--text type02">
+                                            <input type="text">
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="input--text type02">
+                                            <input type="text">
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="input--text type02">
+                                            <input type="text">
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="input--text type02">
+                                            <input type="text">
+                                        </div>
+                                    </td>
+                                    <td style="border-right:none;">
+                                        <div class="input--text type02">
+                                            <input type="text">
+                                        </div>
+                                    </td>
+                                    <td style="border-right:none;">
+                                        <div class="input--text type02">
+                                            <input type="text">
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="input--text type02">
+                                            <input type="text">
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="input--text type02">
+                                            <input type="text">
+                                        </div>
+                                    </td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="tabs--content">
+                        <div class="table--wrap">
+                            <table class="table type01">
+                                <thead>
+                                <tr>
+                                    <th>응시 확인</th>
+                                    <th>
+                                        <div class="input--checkbox type01">
+                                            <input type="checkbox" id="test01">
+                                            <label for="test01"></label>
+                                        </div>
+                                    </th>
+                                    <th>
+                                        <div class="input--checkbox type01">
+                                            <input type="checkbox" id="test02">
+                                            <label for="test02"></label>
+                                        </div>
+                                    </th>
+                                    <th>
+                                        <div class="checkboxes">
+                                            <div class="input--checkbox type01">
+                                                <input type="checkbox" id="test03">
+                                                <label for="test03"></label>
+                                            </div>
+
+                                        </div>
+                                    </th>
+                                    <th>
+                                        <div class="input--checkbox type01">
+                                            <input type="checkbox" id="test05">
+                                            <label for="test05"></label>
+                                        </div>
+                                    </th>
+                                    <th style="border-right:none;">
+                                        <div class="input--checkbox type01">
+                                            <input type="checkbox" id="test06">
+                                            <label for="test06"></label>
+                                        </div>
+                                    </th>
+                                    <th style="border-right:none;">
+                                        <div class="input--checkbox type01">
+                                            <input type="checkbox" id="test07">
+                                            <label for="test07"></label>
+                                        </div>
+                                    </th>
+                                    <th>
+                                        <div class="input--checkbox type01">
+                                            <input type="checkbox" id="test08">
+                                            <label for="test08"></label>
+                                        </div>
+                                    </th>
+                                    <th>
+                                        <div class="input--checkbox type01">
+                                            <input type="checkbox" id="test09">
+                                            <label for="test09"></label>
+                                        </div>
+                                    </th>
+                                </tr>
+                                <tr>
+                                    <th rowspan="2">구분</th>
+                                    <th rowspan="2" class="bg">한국사</th>
+                                    <th rowspan="2" class="bg">국어</th>
+                                    <th class="bg">수학</th>
+                                    <th rowspan="2" class="bg">영어</th>
+                                    <th class="bg">사회탐구</th>
+                                    <th class="bg">과학탐구</th>
+                                    <th class="bg">직업탐구</th>
+                                    <th class="bg">제2외국어</th>
+                                </tr>
+                                <tr>
+                                    <th class="bg">
+                                        <div class="input--select type01">
+                                            <select name="" id="">
+                                                <option value="" disabled selected>선택</option>
+                                            </select>
+                                        </div>
+                                    </th>
+                                    <th class="bg" style="border-right:none;">
+                                        <div class="input--select type01">
+                                            <select name="" id="">
+                                                <option value="" disabled selected>선택</option>
+                                            </select>
+                                        </div>
+                                    </th>
+                                    <th class="bg" style="border-right:none;">
+                                        <div class="input--select type01">
+                                            <select name="" id="">
+                                                <option value="" disabled selected>선택</option>
+                                            </select>
+                                        </div>
+                                    </th>
+                                    <th class="bg">
+                                        <div class="input--select type01">
+                                            <select name="" id="">
+                                                <option value="" disabled selected>선택</option>
+                                            </select>
+                                        </div>
+                                    </th>
+                                    <th class="bg">
+                                        <div class="input--select type01">
+                                            <select name="" id="">
+                                                <option value="" disabled selected>선택</option>
+                                            </select>
+                                        </div>
+                                    </th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <tr>
+                                    <td>원점수</td>
+                                    <td>
+                                        <div class="input--text type02">
+                                            <input type="text">
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="input--text type02">
+                                            <input type="text">
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="input--text type02">
+                                            <input type="text">
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="input--text type02">
+                                            <input type="text">
+                                        </div>
+                                    </td>
+                                    <td style="border-right:none;">
+                                        <div class="input--text type02">
+                                            <input type="text">
+                                        </div>
+                                    </td>
+                                    <td style="border-right:none;">
+                                        <div class="input--text type02">
+                                            <input type="text">
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="input--text type02">
+                                            <input type="text">
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="input--text type02">
+                                            <input type="text">
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>표준점수</td>
+                                    <td>
+                                        <div class="input--text type02">
+                                            <input type="text">
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="input--text type02">
+                                            <input type="text">
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="input--text type02">
+                                            <input type="text">
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="input--text type02">
+                                            <input type="text">
+                                        </div>
+                                    </td>
+                                    <td style="border-right:none;">
+                                        <div class="input--text type02">
+                                            <input type="text">
+                                        </div>
+                                    </td>
+                                    <td style="border-right:none;">
+                                        <div class="input--text type02">
+                                            <input type="text">
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="input--text type02">
+                                            <input type="text">
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="input--text type02">
+                                            <input type="text">
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>백분위</td>
+                                    <td>
+                                        <div class="input--text type02">
+                                            <input type="text">
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="input--text type02">
+                                            <input type="text">
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="input--text type02">
+                                            <input type="text">
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="input--text type02">
+                                            <input type="text">
+                                        </div>
+                                    </td>
+                                    <td style="border-right:none;">
+                                        <div class="input--text type02">
+                                            <input type="text">
+                                        </div>
+                                    </td>
+                                    <td style="border-right:none;">
+                                        <div class="input--text type02">
+                                            <input type="text">
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="input--text type02">
+                                            <input type="text">
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="input--text type02">
+                                            <input type="text">
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>등급</td>
+                                    <td>
+                                        <div class="input--text type02">
+                                            <input type="text">
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="input--text type02">
+                                            <input type="text">
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="input--text type02">
+                                            <input type="text">
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="input--text type02">
+                                            <input type="text">
+                                        </div>
+                                    </td>
+                                    <td style="border-right:none;">
+                                        <div class="input--text type02">
+                                            <input type="text">
+                                        </div>
+                                    </td>
+                                    <td style="border-right:none;">
+                                        <div class="input--text type02">
+                                            <input type="text">
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="input--text type02">
+                                            <input type="text">
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="input--text type02">
+                                            <input type="text">
+                                        </div>
+                                    </td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="tabs--content">
+                        <div class="table--wrap">
+                            <table class="table type01">
+                                <thead>
+                                <tr>
+                                    <th>응시 확인</th>
+                                    <th>
+                                        <div class="input--checkbox type01">
+                                            <input type="checkbox" id="test01">
+                                            <label for="test01"></label>
+                                        </div>
+                                    </th>
+                                    <th>
+                                        <div class="input--checkbox type01">
+                                            <input type="checkbox" id="test02">
+                                            <label for="test02"></label>
+                                        </div>
+                                    </th>
+                                    <th>
+                                        <div class="checkboxes">
+                                            <div class="input--checkbox type01">
+                                                <input type="checkbox" id="test03">
+                                                <label for="test03"></label>
+                                            </div>
+
+                                        </div>
+                                    </th>
+                                    <th>
+                                        <div class="input--checkbox type01">
+                                            <input type="checkbox" id="test05">
+                                            <label for="test05"></label>
+                                        </div>
+                                    </th>
+                                    <th style="border-right:none;">
+                                        <div class="input--checkbox type01">
+                                            <input type="checkbox" id="test06">
+                                            <label for="test06"></label>
+                                        </div>
+                                    </th>
+                                    <th style="border-right:none;">
+                                        <div class="input--checkbox type01">
+                                            <input type="checkbox" id="test07">
+                                            <label for="test07"></label>
+                                        </div>
+                                    </th>
+                                    <th>
+                                        <div class="input--checkbox type01">
+                                            <input type="checkbox" id="test08">
+                                            <label for="test08"></label>
+                                        </div>
+                                    </th>
+                                    <th>
+                                        <div class="input--checkbox type01">
+                                            <input type="checkbox" id="test09">
+                                            <label for="test09"></label>
+                                        </div>
+                                    </th>
+                                </tr>
+                                <tr>
+                                    <th rowspan="2">구분</th>
+                                    <th rowspan="2" class="bg">한국사</th>
+                                    <th rowspan="2" class="bg">국어</th>
+                                    <th class="bg">수학</th>
+                                    <th rowspan="2" class="bg">영어</th>
+                                    <th class="bg">사회탐구</th>
+                                    <th class="bg">과학탐구</th>
+                                    <th class="bg">직업탐구</th>
+                                    <th class="bg">제2외국어</th>
+                                </tr>
+                                <tr>
+                                    <th class="bg">
+                                        <div class="input--select type01">
+                                            <select name="" id="">
+                                                <option value="" disabled selected>선택</option>
+                                            </select>
+                                        </div>
+                                    </th>
+                                    <th class="bg" style="border-right:none;">
+                                        <div class="input--select type01">
+                                            <select name="" id="">
+                                                <option value="" disabled selected>선택</option>
+                                            </select>
+                                        </div>
+                                    </th>
+                                    <th class="bg" style="border-right:none;">
+                                        <div class="input--select type01">
+                                            <select name="" id="">
+                                                <option value="" disabled selected>선택</option>
+                                            </select>
+                                        </div>
+                                    </th>
+                                    <th class="bg">
+                                        <div class="input--select type01">
+                                            <select name="" id="">
+                                                <option value="" disabled selected>선택</option>
+                                            </select>
+                                        </div>
+                                    </th>
+                                    <th class="bg">
+                                        <div class="input--select type01">
+                                            <select name="" id="">
+                                                <option value="" disabled selected>선택</option>
+                                            </select>
+                                        </div>
+                                    </th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <tr>
+                                    <td>원점수</td>
+                                    <td>
+                                        <div class="input--text type02">
+                                            <input type="text">
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="input--text type02">
+                                            <input type="text">
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="input--text type02">
+                                            <input type="text">
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="input--text type02">
+                                            <input type="text">
+                                        </div>
+                                    </td>
+                                    <td style="border-right:none;">
+                                        <div class="input--text type02">
+                                            <input type="text">
+                                        </div>
+                                    </td>
+                                    <td style="border-right:none;">
+                                        <div class="input--text type02">
+                                            <input type="text">
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="input--text type02">
+                                            <input type="text">
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="input--text type02">
+                                            <input type="text">
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>표준점수</td>
+                                    <td>
+                                        <div class="input--text type02">
+                                            <input type="text">
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="input--text type02">
+                                            <input type="text">
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="input--text type02">
+                                            <input type="text">
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="input--text type02">
+                                            <input type="text">
+                                        </div>
+                                    </td>
+                                    <td style="border-right:none;">
+                                        <div class="input--text type02">
+                                            <input type="text">
+                                        </div>
+                                    </td>
+                                    <td style="border-right:none;">
+                                        <div class="input--text type02">
+                                            <input type="text">
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="input--text type02">
+                                            <input type="text">
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="input--text type02">
+                                            <input type="text">
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>백분위</td>
+                                    <td>
+                                        <div class="input--text type02">
+                                            <input type="text">
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="input--text type02">
+                                            <input type="text">
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="input--text type02">
+                                            <input type="text">
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="input--text type02">
+                                            <input type="text">
+                                        </div>
+                                    </td>
+                                    <td style="border-right:none;">
+                                        <div class="input--text type02">
+                                            <input type="text">
+                                        </div>
+                                    </td>
+                                    <td style="border-right:none;">
+                                        <div class="input--text type02">
+                                            <input type="text">
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="input--text type02">
+                                            <input type="text">
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="input--text type02">
+                                            <input type="text">
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>등급</td>
+                                    <td>
+                                        <div class="input--text type02">
+                                            <input type="text">
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="input--text type02">
+                                            <input type="text">
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="input--text type02">
+                                            <input type="text">
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="input--text type02">
+                                            <input type="text">
+                                        </div>
+                                    </td>
+                                    <td style="border-right:none;">
+                                        <div class="input--text type02">
+                                            <input type="text">
+                                        </div>
+                                    </td>
+                                    <td style="border-right:none;">
+                                        <div class="input--text type02">
+                                            <input type="text">
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="input--text type02">
+                                            <input type="text">
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="input--text type02">
+                                            <input type="text">
+                                        </div>
+                                    </td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="tabs--content">
+                        <div class="table--wrap">
+                            <table class="table type01">
+                                <thead>
+                                <tr>
+                                    <th>응시 확인</th>
+                                    <th>
+                                        <div class="input--checkbox type01">
+                                            <input type="checkbox" id="test01">
+                                            <label for="test01"></label>
+                                        </div>
+                                    </th>
+                                    <th>
+                                        <div class="input--checkbox type01">
+                                            <input type="checkbox" id="test02">
+                                            <label for="test02"></label>
+                                        </div>
+                                    </th>
+                                    <th>
+                                        <div class="checkboxes">
+                                            <div class="input--checkbox type01">
+                                                <input type="checkbox" id="test03">
+                                                <label for="test03"></label>
+                                            </div>
+
+                                        </div>
+                                    </th>
+                                    <th>
+                                        <div class="input--checkbox type01">
+                                            <input type="checkbox" id="test05">
+                                            <label for="test05"></label>
+                                        </div>
+                                    </th>
+                                    <th style="border-right:none;">
+                                        <div class="input--checkbox type01">
+                                            <input type="checkbox" id="test06">
+                                            <label for="test06"></label>
+                                        </div>
+                                    </th>
+                                    <th style="border-right:none;">
+                                        <div class="input--checkbox type01">
+                                            <input type="checkbox" id="test07">
+                                            <label for="test07"></label>
+                                        </div>
+                                    </th>
+                                    <th>
+                                        <div class="input--checkbox type01">
+                                            <input type="checkbox" id="test08">
+                                            <label for="test08"></label>
+                                        </div>
+                                    </th>
+                                    <th>
+                                        <div class="input--checkbox type01">
+                                            <input type="checkbox" id="test09">
+                                            <label for="test09"></label>
+                                        </div>
+                                    </th>
+                                </tr>
+                                <tr>
+                                    <th rowspan="2">구분</th>
+                                    <th rowspan="2" class="bg">한국사</th>
+                                    <th rowspan="2" class="bg">국어</th>
+                                    <th class="bg">수학</th>
+                                    <th rowspan="2" class="bg">영어</th>
+                                    <th class="bg">사회탐구</th>
+                                    <th class="bg">과학탐구</th>
+                                    <th class="bg">직업탐구</th>
+                                    <th class="bg">제2외국어</th>
+                                </tr>
+                                <tr>
+                                    <th class="bg">
+                                        <div class="input--select type01">
+                                            <select name="" id="">
+                                                <option value="" disabled selected>선택</option>
+                                            </select>
+                                        </div>
+                                    </th>
+                                    <th class="bg" style="border-right:none;">
+                                        <div class="input--select type01">
+                                            <select name="" id="">
+                                                <option value="" disabled selected>선택</option>
+                                            </select>
+                                        </div>
+                                    </th>
+                                    <th class="bg" style="border-right:none;">
+                                        <div class="input--select type01">
+                                            <select name="" id="">
+                                                <option value="" disabled selected>선택</option>
+                                            </select>
+                                        </div>
+                                    </th>
+                                    <th class="bg">
+                                        <div class="input--select type01">
+                                            <select name="" id="">
+                                                <option value="" disabled selected>선택</option>
+                                            </select>
+                                        </div>
+                                    </th>
+                                    <th class="bg">
+                                        <div class="input--select type01">
+                                            <select name="" id="">
+                                                <option value="" disabled selected>선택</option>
+                                            </select>
+                                        </div>
+                                    </th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <tr>
+                                    <td>원점수</td>
+                                    <td>
+                                        <div class="input--text type02">
+                                            <input type="text">
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="input--text type02">
+                                            <input type="text">
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="input--text type02">
+                                            <input type="text">
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="input--text type02">
+                                            <input type="text">
+                                        </div>
+                                    </td>
+                                    <td style="border-right:none;">
+                                        <div class="input--text type02">
+                                            <input type="text">
+                                        </div>
+                                    </td>
+                                    <td style="border-right:none;">
+                                        <div class="input--text type02">
+                                            <input type="text">
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="input--text type02">
+                                            <input type="text">
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="input--text type02">
+                                            <input type="text">
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>표준점수</td>
+                                    <td>
+                                        <div class="input--text type02">
+                                            <input type="text">
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="input--text type02">
+                                            <input type="text">
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="input--text type02">
+                                            <input type="text">
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="input--text type02">
+                                            <input type="text">
+                                        </div>
+                                    </td>
+                                    <td style="border-right:none;">
+                                        <div class="input--text type02">
+                                            <input type="text">
+                                        </div>
+                                    </td>
+                                    <td style="border-right:none;">
+                                        <div class="input--text type02">
+                                            <input type="text">
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="input--text type02">
+                                            <input type="text">
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="input--text type02">
+                                            <input type="text">
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>백분위</td>
+                                    <td>
+                                        <div class="input--text type02">
+                                            <input type="text">
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="input--text type02">
+                                            <input type="text">
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="input--text type02">
+                                            <input type="text">
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="input--text type02">
+                                            <input type="text">
+                                        </div>
+                                    </td>
+                                    <td style="border-right:none;">
+                                        <div class="input--text type02">
+                                            <input type="text">
+                                        </div>
+                                    </td>
+                                    <td style="border-right:none;">
+                                        <div class="input--text type02">
+                                            <input type="text">
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="input--text type02">
+                                            <input type="text">
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="input--text type02">
+                                            <input type="text">
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>등급</td>
+                                    <td>
+                                        <div class="input--text type02">
+                                            <input type="text">
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="input--text type02">
+                                            <input type="text">
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="input--text type02">
+                                            <input type="text">
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="input--text type02">
+                                            <input type="text">
+                                        </div>
+                                    </td>
+                                    <td style="border-right:none;">
+                                        <div class="input--text type02">
+                                            <input type="text">
+                                        </div>
+                                    </td>
+                                    <td style="border-right:none;">
+                                        <div class="input--text type02">
+                                            <input type="text">
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="input--text type02">
+                                            <input type="text">
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="input--text type02">
+                                            <input type="text">
+                                        </div>
+                                    </td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="tabs--content">
+                        <div class="table--wrap">
+                            <table class="table type01">
+                                <thead>
+                                <tr>
+                                    <th>응시 확인</th>
+                                    <th>
+                                        <div class="input--checkbox type01">
+                                            <input type="checkbox" id="test01">
+                                            <label for="test01"></label>
+                                        </div>
+                                    </th>
+                                    <th>
+                                        <div class="input--checkbox type01">
+                                            <input type="checkbox" id="test02">
+                                            <label for="test02"></label>
+                                        </div>
+                                    </th>
+                                    <th>
+                                        <div class="checkboxes">
+                                            <div class="input--checkbox type01">
+                                                <input type="checkbox" id="test03">
+                                                <label for="test03"></label>
+                                            </div>
+
+                                        </div>
+                                    </th>
+                                    <th>
+                                        <div class="input--checkbox type01">
+                                            <input type="checkbox" id="test05">
+                                            <label for="test05"></label>
+                                        </div>
+                                    </th>
+                                    <th style="border-right:none;">
+                                        <div class="input--checkbox type01">
+                                            <input type="checkbox" id="test06">
+                                            <label for="test06"></label>
+                                        </div>
+                                    </th>
+                                    <th style="border-right:none;">
+                                        <div class="input--checkbox type01">
+                                            <input type="checkbox" id="test07">
+                                            <label for="test07"></label>
+                                        </div>
+                                    </th>
+                                    <th>
+                                        <div class="input--checkbox type01">
+                                            <input type="checkbox" id="test08">
+                                            <label for="test08"></label>
+                                        </div>
+                                    </th>
+                                    <th>
+                                        <div class="input--checkbox type01">
+                                            <input type="checkbox" id="test09">
+                                            <label for="test09"></label>
+                                        </div>
+                                    </th>
+                                </tr>
+                                <tr>
+                                    <th rowspan="2">구분</th>
+                                    <th rowspan="2" class="bg">한국사</th>
+                                    <th rowspan="2" class="bg">국어</th>
+                                    <th class="bg">수학</th>
+                                    <th rowspan="2" class="bg">영어</th>
+                                    <th class="bg">사회탐구</th>
+                                    <th class="bg">과학탐구</th>
+                                    <th class="bg">직업탐구</th>
+                                    <th class="bg">제2외국어</th>
+                                </tr>
+                                <tr>
+                                    <th class="bg">
+                                        <div class="input--select type01">
+                                            <select name="" id="">
+                                                <option value="" disabled selected>선택</option>
+                                            </select>
+                                        </div>
+                                    </th>
+                                    <th class="bg" style="border-right:none;">
+                                        <div class="input--select type01">
+                                            <select name="" id="">
+                                                <option value="" disabled selected>선택</option>
+                                            </select>
+                                        </div>
+                                    </th>
+                                    <th class="bg" style="border-right:none;">
+                                        <div class="input--select type01">
+                                            <select name="" id="">
+                                                <option value="" disabled selected>선택</option>
+                                            </select>
+                                        </div>
+                                    </th>
+                                    <th class="bg">
+                                        <div class="input--select type01">
+                                            <select name="" id="">
+                                                <option value="" disabled selected>선택</option>
+                                            </select>
+                                        </div>
+                                    </th>
+                                    <th class="bg">
+                                        <div class="input--select type01">
+                                            <select name="" id="">
+                                                <option value="" disabled selected>선택</option>
+                                            </select>
+                                        </div>
+                                    </th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <tr>
+                                    <td>원점수</td>
+                                    <td>
+                                        <div class="input--text type02">
+                                            <input type="text">
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="input--text type02">
+                                            <input type="text">
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="input--text type02">
+                                            <input type="text">
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="input--text type02">
+                                            <input type="text">
+                                        </div>
+                                    </td>
+                                    <td style="border-right:none;">
+                                        <div class="input--text type02">
+                                            <input type="text">
+                                        </div>
+                                    </td>
+                                    <td style="border-right:none;">
+                                        <div class="input--text type02">
+                                            <input type="text">
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="input--text type02">
+                                            <input type="text">
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="input--text type02">
+                                            <input type="text">
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>표준점수</td>
+                                    <td>
+                                        <div class="input--text type02">
+                                            <input type="text">
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="input--text type02">
+                                            <input type="text">
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="input--text type02">
+                                            <input type="text">
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="input--text type02">
+                                            <input type="text">
+                                        </div>
+                                    </td>
+                                    <td style="border-right:none;">
+                                        <div class="input--text type02">
+                                            <input type="text">
+                                        </div>
+                                    </td>
+                                    <td style="border-right:none;">
+                                        <div class="input--text type02">
+                                            <input type="text">
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="input--text type02">
+                                            <input type="text">
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="input--text type02">
+                                            <input type="text">
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>백분위</td>
+                                    <td>
+                                        <div class="input--text type02">
+                                            <input type="text">
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="input--text type02">
+                                            <input type="text">
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="input--text type02">
+                                            <input type="text">
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="input--text type02">
+                                            <input type="text">
+                                        </div>
+                                    </td>
+                                    <td style="border-right:none;">
+                                        <div class="input--text type02">
+                                            <input type="text">
+                                        </div>
+                                    </td>
+                                    <td style="border-right:none;">
+                                        <div class="input--text type02">
+                                            <input type="text">
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="input--text type02">
+                                            <input type="text">
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="input--text type02">
+                                            <input type="text">
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>등급</td>
+                                    <td>
+                                        <div class="input--text type02">
+                                            <input type="text">
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="input--text type02">
+                                            <input type="text">
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="input--text type02">
+                                            <input type="text">
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="input--text type02">
+                                            <input type="text">
+                                        </div>
+                                    </td>
+                                    <td style="border-right:none;">
+                                        <div class="input--text type02">
+                                            <input type="text">
+                                        </div>
+                                    </td>
+                                    <td style="border-right:none;">
+                                        <div class="input--text type02">
+                                            <input type="text">
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="input--text type02">
+                                            <input type="text">
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="input--text type02">
+                                            <input type="text">
+                                        </div>
+                                    </td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="btns align--right"  data-aos="fade-up" data-aos-duration="1500" data-aos-delay="300">
+                <button class="btn type03">SAVE</button>
+                <button class="btn type03">EDIT</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- 푸터 -->
+<footer id="footer">
+    <div class="wrap">
+        <div class="links">
+            <a href="#">회사소개</a>
+            <a href="#">이용약관</a>
+            <a href="#">개인정보처리방침</a>
+            <a href="#">청소년보호정책</a>
+            <a href="#">기사배열기본방침</a>
+            <a href="#">광고안내</a>
+            <a href="#">제휴문의</a>
+        </div>
+
+        <div class="infos">
+            <p class="info">(주)000 사업자등록번호 : 000-00-00000 | 통신판매업 신고번호 : 0000-00002호<p>
+            <p class="info">FAX 00-000-0000</p>
+            <p class="info">고객센터 0000-0000</p>
+        </div>
+
+        <p class="copyright">Copyright(c) 00000 Cop. All Rights Reserved. aaa@aaa.com</p>
+    </div>
+</footer>
+</body>
+</html>
